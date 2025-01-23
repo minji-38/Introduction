@@ -22,7 +22,7 @@ header, .intro{
 }
 .textBox {
     width: 100vw;
-    height: 30vh;
+    height: 30vw;
 
     display: flex;
     justify-content: center;
@@ -38,8 +38,8 @@ header, .intro{
     background-repeat: no-repeat;
 }
 .mainImg {
-    width: 30vh;
-    height: 30vh;
+    width: 30vw;
+    height: 30vw;
     background-image: url('images/minji.jpg');
     background-size: cover;
     background-position: center;
@@ -67,7 +67,7 @@ header, .intro{
     text-align: center;
 }
 .introText > p {
-    font-size: 2rem;
+    font-size: 4vw;
 }
 .intro2 {
     margin: 0;
@@ -82,11 +82,11 @@ header, .intro{
     justify-items: center;
     align-items: center;
     margin: 2vw;
-    width: 32vh;
+    width: 75vh;
 }
 .box > img {
-    width: 200px;
-    height: 200px;
+    width: 42vh;
+    height: 42vh;
     object-fit: cover;
     border: 2px solid #B61B2B;
     border-radius: 50%;
@@ -102,7 +102,7 @@ header, .intro{
     justify-content: center;
 }
 .kikiBox {
-    width: 67vw;
+    width: 90vw;
     margin-bottom: 7vh;
 }
 .kikiBox > img{
