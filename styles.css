@@ -102,8 +102,8 @@ header, .intro{
     justify-content: center;
 }
 .kikiBox {
-    width: 68rem;
-    margin-bottom: 7vh;
+    width: 80vw;
+    margin-bottom: 7vw;
 }
 .kikiBox > img{
     border-radius: 20px;
