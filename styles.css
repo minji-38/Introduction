@@ -67,7 +67,7 @@ header, .intro{
     text-align: center;
 }
 .introText > p {
-    font-size: 4vw;
+    font-size: 1.8rem;
 }
 .intro2 {
     margin: 0;
@@ -82,11 +82,11 @@ header, .intro{
     justify-items: center;
     align-items: center;
     margin: 2vw;
-    width: 75vh;
+    width: 20rem;
 }
 .box > img {
-    width: 42vh;
-    height: 42vh;
+    width: 15rem;
+    height: 15rem;
     object-fit: cover;
     border: 2px solid #B61B2B;
     border-radius: 50%;
@@ -102,7 +102,7 @@ header, .intro{
     justify-content: center;
 }
 .kikiBox {
-    width: 90vw;
+    width: 68rem;
     margin-bottom: 7vh;
 }
 .kikiBox > img{
