@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>선형 그라데이션</title>
+  <style>
+    div {
+      width: 500px;
+      height: 300px;
+      border: 1px solid #222;
+      border-radius: 10px;
+    }
+    .grad1 {
+      background: blue;
+      /*왼쪽 위에서 오른쪽 아래 방향으로 그라데이션 (블루->화이트)*/
+      background: linear-gradient(to right bottom, blue, white);
+    }
+    .grad2 {
+      background: red;
+      /*45도 각도로 그라데이션 (레드->화이트)*/
+      background: linear-gradient(45deg, #f00, #fff);
+    }
+    .grad3 {
+      background: rgb(0, 255, 234); /*그라데이션 지원 안하는 브라우저에서도 단일색상 보이도록*/
+      /*아래방향으로 그라데이션, 중단점(30%부분에 화이트)*/
+      background: linear-gradient(to bottom, green, white 30%,blue);
+    }
+  </style>
+</head>
+<body>
+  <div class="grad1"></div>
+  <div class="grad2"></div>
+  <div class="grad3"></div>
+</body>
+</html>

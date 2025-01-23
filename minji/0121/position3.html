@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>예시보고 만들어보기(position)</title>
+  <style>
+    .cont {
+      background-color: #eee;
+      border: 1px solid #ccc;
+      width: 500px;
+      height: 200px;
+      line-height: 2;
+      margin: 10px;
+    }
+    #box1 {
+      position: static;
+    }
+    #box2 {
+      position: relative;
+    }
+    #box3 {
+      position: relative;
+      left: 50px;
+      top: -50px;
+    }
+    #box4 {
+      width: 100px;
+      height: 100px;
+      background-color: black;
+      position: fixed;
+      right: 10px;
+      top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="cont" id="box1">
+    <p>여기 내용을 영어로 써야하지만 쓰기 싫으니까 그냥 하겠어요.. 그리고 지금은 4시반.. 집에 가려면 얼마 안남았어요 가슴이 뛴다. 두근거린다 배고프다 점심에 밥버거를 먹었어요</p>
+  </div>
+  <div class="cont" id="box2">
+    <p>여기 내용을 영어로 써야하지만 쓰기 싫으니까 그냥 하겠어요.. 그리고 지금은 4시반.. 집에 가려면 얼마 안남았어요 가슴이 뛴다. 두근거린다 배고프다 점심에 밥버거를 먹었어요</p>
+  </div>
+  <div class="cont" id="box3">
+    <p>여기 내용을 영어로 써야하지만 쓰기 싫으니까 그냥 하겠어요.. 그리고 지금은 4시반.. 집에 가려면 얼마 안남았어요 가슴이 뛴다. 두근거린다 배고프다 점심에 밥버거를 먹었어요</p>
+  </div>
+  <div id="box4">
+    <p></p>
+  </div>
+</body>
+</html>

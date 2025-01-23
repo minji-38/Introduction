@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>미디어쿼리 예제 따라하기</title>
+  <style>
+    body {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url(images/bg-light.jpg);
+      background-size: cover;
+    }
+    h1 {
+      font-size: 4rem;
+    }
+    /*미디어쿼리 작성*/
+    /*768~1023이면 dark*/
+    @media screen and (min-width : 768px) and (max-width: 1023px) {
+      body {
+        background-image: url(images/bg-dark.jpg);
+      }      
+    }
+    /*768 미만이면 small*/
+    @media screen and (max-width: 767px) {
+      body {
+        background-image: url(images/bg-small.jpg);
+      }  
+    }
+    /*1023 이상이면 light*/
+    @media screen and (min-width:1024px) {
+      body {
+        background-image: url(images/bg-light.jpg);
+      }  
+    }
+  </style>
+</head>
+<body>
+  <h1>미디어 쿼리</h1>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>박스모델</title>
+  <style>
+    .wrapper {
+      width: 500px;
+      margin: 10px auto;
+      border: 1px solid #ccc;
+      padding: 20px;
+    }
+    .box {
+      padding: 20px;
+      margin: 10px;
+    }
+    #box1 {
+      background-color: #ffd800;
+      float: left;
+    }
+    #box2 {
+      background-color: #0094ff;
+      float: right;
+    }
+    .clear {
+      clear: both;
+      padding-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="box" id="box1">박스1</div>
+    <div class="box" id="box2">박스2</div> 
+    <p>sdafasklfjsadkljfkldjfklajflksdafa sklfjsadkljfksdafasklf jsadkl  jfkldjfklaj f lksdafask lfjsa dkljfk sd afasklfjsadk ljfkldjfkl ajflksdafasklf jsadkljfk</p>
+    <p class="clear">sdafasklfjsadkljfkldjfk lajflksdafasklfjsadkljfk</p>
+  </div>
+</body>
+</html>
