@@ -21,14 +21,17 @@ header, .intro{
     align-items: center;
 }
 .textBox {
+    width: 100vw;
+    height: 30vh;
+
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .mainText {
+    width: 80%;
+    height: 100%;
     margin-left: 25vh;
-    width: 100vw;
-    height: 30vh;
     background-image: url('images/mainText.png');
     background-size: contain;
     background-position: center;
